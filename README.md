@@ -1,5 +1,7 @@
 # HTML-Table-to-CSV-Transformer
 
+A Python script which takes an HTML file which contains a table, and converts it to a CSV file, make a modification to one of the columns of the table, and put the previous files in the History folder. This script will Backup itself every day at midnight.
+
 The script starts by importing the necessary modules, including csv, os, BeautifulSoup, time, and datetime. These modules are essential for file manipulation, data extraction, and time-related operations.
 
 Next, the script defines various functions:
